@@ -1,0 +1,7 @@
+<main class="container main-container">
+  {{#if this.quizEnded}}
+    <Score @score={{this.score}} @questionsLength={{this.questions.length}} @restartQuiz={{this.restartQuiz}}/>
+  {{else}}
+    <Question @totalQuestions={{this.questions.length}} @currentIndex={{this.currentQuestionIndex}} @question={{this.currentQuestion}} @difficulty={{this.difficulty}} @timer={{this.timer}} @submitAnswer={{this.submitAnswer}}/>
+  {{/if}}
+</main>

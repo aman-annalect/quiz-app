@@ -1,0 +1,21 @@
+<div class="row mt-4">
+  <div class="col-6">
+    <div class="mr-4 h-100 d-flex flex-column justify-content-between">
+      <div>
+        <h4 class="questions-text">Question {{this.currentQuestionNumber}} of {{@totalQuestions}}</h4>
+        <h1 class="question-text">
+          {{@question.question}}
+        </h1>
+      </div>
+      <Progress-Bar @progress={{this.progress}}/>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="ml-4">
+      {{#each @question.options as |option|}}
+        <button class="btn btn-block {{if (eq option this.selectedAnswer) 'btn-options-active' 'btn-options'}}" type="button" {{on 'click'(fn this.selectAnswer option)}}>{{option}}</button>
+      {{/each}}
+      <button class=" mt-4 btn btn-submit btn-block" disabled={{not this.selectedAnswer}} type="button" {{on 'click'(fn @submitAnswer this.selectedAnswer)}}>Submit Answer</button>
+    </div>
+  </div>
+</div>

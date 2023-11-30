@@ -1,0 +1,30 @@
+<div class="container main-container">
+  <div class="row mt-4">
+    <div class="col-6">
+      <div class="mr-4 h-100 d-flex flex-column justify-content-between">
+        <div>
+          <h1 class="main-text">
+            Welcome to the
+            <span class="sub-text">
+              Frontend Quiz!
+            </span>
+          </h1>
+          <h5 class="main-sub">Pick a subject to get started.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="ml-4">
+        <LinkTo @route="html-quiz">
+          <button class="btn btn-block btn-options" type="button">HTML</button>
+        </LinkTo>
+        <LinkTo @route="css-quiz">
+          <button class="btn btn-block btn-options" type="button">CSS</button>
+        </LinkTo>
+        <LinkTo @route="js-quiz">
+          <button class="btn btn-block btn-options" type="button">JS</button>
+        </LinkTo>
+      </div>
+    </div>
+  </div>
+</div>

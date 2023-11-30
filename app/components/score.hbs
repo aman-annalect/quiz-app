@@ -1,0 +1,10 @@
+<div class="quiz-score d-flex justify-content-center">
+    <div class="row quiz-row">
+      <h1 class="main-text">Quiz Completed <span class="sub-text">You scored...</span></h1>
+      <div class="score-card">
+        <h1 class="score-text-main">{{@score}}</h1>
+        <h5 class="score-text-sub">out of {{@questionsLength}}</h5>
+      </div>
+      <button {{ on 'click' @restartQuiz }} class="mt-4 btn btn-submit btn-block" type="button">Play Again</button>
+    </div>
+  </div>

@@ -1,3 +1,5 @@
+
+@import "ember-bootstrap/bootstrap";
 /* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
 body {
   background-color: #313e51;
@@ -35,8 +37,9 @@ a:hover {
 }
 
 .btn-submit {
-  background-color: #a33de3;
-  color: #fff;
+  background-color: #a33de3 !important;
+  color: #fff !important;
+  border: none !important;
   padding: 20px 10px;
   margin-bottom: 10px;
   border-radius: 10px;

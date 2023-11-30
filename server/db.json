@@ -1,0 +1,158 @@
+{
+  "htmlQuestions": [
+    {
+      "question": "What does HTML stand for?",
+      "options": ["Hyper Text Markup Language", "Hyperlink and Text Markup Language", "Home Tool Markup Language", "Hyper Transfer Markup Language"],
+      "correctAnswer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "options": ["<a>", "<h1>", "<p>", "<div>"],
+      "correctAnswer": "<a>"
+    },
+    {
+      "question": "What does the 'alt' attribute in the image tag provide?",
+      "options": ["Alternative text for the image", "Alignment for the image", "Link to another image", "Alternative link for the image"],
+      "correctAnswer": "Alternative text for the image"
+    },
+    {
+      "question": "Which HTML tag is used to define an unordered list?",
+      "options": ["<ul>", "<ol>", "<li>", "<list>"],
+      "correctAnswer": "<ul>"
+    },
+    {
+      "question": "What is the purpose of the HTML <head> element?",
+      "options": ["To define the main content of the HTML document", "To define the structure of the HTML document", "To contain metadata about the HTML document", "To define a header for the HTML document"],
+      "correctAnswer": "To contain metadata about the HTML document"
+    },
+    {
+      "question": "Which HTML tag is used to define a table?",
+      "options": ["<table>", "<tr>", "<td>", "<th>"],
+      "correctAnswer": "<table>"
+    },
+    {
+      "question": "What is the purpose of the HTML <meta> tag?",
+      "options": ["To define a paragraph", "To define metadata about an HTML document", "To define a link to an external resource", "To define a navigation link"],
+      "correctAnswer": "To define metadata about an HTML document"
+    },
+    {
+      "question": "Which HTML tag is used to create an ordered list?",
+      "options": ["<ul>", "<ol>", "<li>", "<list>"],
+      "correctAnswer": "<ol>"
+    },
+    {
+      "question": "In HTML, what does the acronym DOCTYPE stand for?",
+      "options": ["Document Type", "Document Text", "Document Template", "Document Table"],
+      "correctAnswer": "Document Type"
+    },
+    {
+      "question": "What is the purpose of the HTML <footer> element?",
+      "options": ["To define the main content of the HTML document", "To define a footer for the HTML document", "To define a navigation link", "To define metadata about the HTML document"],
+      "correctAnswer": "To define a footer for the HTML document"
+    }
+  ],
+  "cssQuestions": [
+    {
+      "question": "What does CSS stand for?",
+      "options": ["Counter Style Sheet", "Colorful Style Sheet", "Computer Style Sheet", "Cascading Style Sheet"],
+      "correctAnswer": "Cascading Style Sheet"
+    },
+    {
+      "question": "Which CSS property is used to change the text color of an element?",
+      "options": ["font-color", "text-color", "color", "text-style"],
+      "correctAnswer": "color"
+    },
+    {
+      "question": "What is the purpose of the CSS 'box-sizing' property?",
+      "options": ["To define the layout of the box", "To include padding and border in the total width and height of the box", "To set the background color of the box", "To control the visibility of the box"],
+      "correctAnswer": "To include padding and border in the total width and height of the box"
+    },
+    {
+      "question": "Which CSS property is used to control the spacing between elements?",
+      "options": ["spacing", "margin", "padding", "border"],
+      "correctAnswer": "margin"
+    },
+    {
+      "question": "What is the purpose of the CSS 'float' property?",
+      "options": ["To make text bold", "To move an element to the left or right", "To add a shadow to the element", "To change the font style of the element"],
+      "correctAnswer": "To move an element to the left or right"
+    },
+    {
+      "question": "Which CSS property is used to control the font size of text?",
+      "options": ["font-size", "text-size", "size", "text-font"],
+      "correctAnswer": "font-size"
+    },
+    {
+      "question": "What is the purpose of the CSS 'position' property?",
+      "options": ["To control the spacing between elements", "To set the position of an element in the document", "To define the layout of the box", "To change the color of the text"],
+      "correctAnswer": "To set the position of an element in the document"
+    },
+    {
+      "question": "Which CSS property is used to add rounded corners to an element?",
+      "options": ["border-radius", "corner-radius", "rounded-corners", "box-radius"],
+      "correctAnswer": "border-radius"
+    },
+    {
+      "question": "In CSS, what does the 'opacity' property control?",
+      "options": ["Text alignment", "Element visibility", "Box shadow", "Border width"],
+      "correctAnswer": "Element visibility"
+    },
+    {
+      "question": "What is the purpose of the CSS 'flexbox'?",
+      "options": ["To create flexible layouts", "To style text", "To add animations", "To control the spacing between elements"],
+      "correctAnswer": "To create flexible layouts"
+    }
+  ],
+  "jsQuestions": [
+    {
+      "question": "What does JS stand for?",
+      "options": ["Java Source", "JavaScript", "Joomla Script", "JSON Script"],
+      "correctAnswer": "JavaScript"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "options": ["var", "let", "const", "varlet"],
+      "correctAnswer": "var"
+    },
+    {
+      "question": "What is the result of the following expression: 5 + '10'?",
+      "options": ["15", "510", "Error", "510"],
+      "correctAnswer": "510"
+    },
+    {
+      "question": "What is the purpose of the JavaScript 'if' statement?",
+      "options": ["To define a function", "To create a loop", "To make decisions based on a condition", "To include an external script"],
+      "correctAnswer": "To make decisions based on a condition"
+    },
+    {
+      "question": "Which built-in method returns the length of a string in JavaScript?",
+      "options": ["length()", "size()", "count()", "None of the above"],
+      "correctAnswer": "length()"
+    },
+    {
+      "question": "What is the purpose of the JavaScript 'function' keyword?",
+      "options": ["To declare a variable", "To create a function", "To define a loop", "To include an external script"],
+      "correctAnswer": "To create a function"
+    },
+    {
+      "question": "Which operator is used for strict equality in JavaScript?",
+      "options": ["==", "===", "=", "!="],
+      "correctAnswer": "==="
+    },
+    {
+      "question": "How do you comment out multiple lines in JavaScript?",
+      "options": ["//", "/* */", "#", "--"],
+      "correctAnswer": "/* */"
+    },
+    {
+      "question": "What is the purpose of the JavaScript 'for' loop?",
+      "options": ["To define a function", "To create a conditional statement", "To create a loop", "To include an external script"],
+      "correctAnswer": "To create a loop"
+    },
+    {
+      "question": "Which built-in object is used to perform mathematical operations in JavaScript?",
+      "options": ["Math", "Number", "Calc", "Calculate"],
+      "correctAnswer": "Math"
+    }
+  ]
+}
